@@ -22,7 +22,7 @@
 - **Matplotlib**, **Seaborn** — для визуализации
 - **Scikit-learn** — для построения моделей
 - **SMOTE** — для борьбы с дисбалансом классов
-- **GridSearchCV**, **Pipeline**, **ColumnTransformer** — автоматизация и оптимизация моделей
+- **GridSearchCV**, **RandomSearchCV**, **Pipeline**, **ColumnTransformer** — автоматизация и оптимизация моделей
 
 ## ⚙️ Метрики качества
 
