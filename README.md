@@ -13,7 +13,21 @@
 
 ---
 
-## 2. Папка [`прогноз_времени_заказов`](https://github.com/AtaevEN/Praktikum_projects/tree/main/%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7_%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2)  
+## 2. Папка [`определение_возраста_по_фото`](https://github.com/AtaevEN/Praktikum_projects/tree/main/%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0_%D0%BF%D0%BE_%D1%84%D0%BE%D1%82%D0%BE)
+### Компьютерное зрение: определение возраста по фотографии
+
+**Описание проекта:**  
+Сетевой супермаркет «Хлеб-Соль» внедряет систему компьютерного зрения в прикассовой зоне. Фотофиксация покупателей помогает:
+- анализировать поведение покупателей разных возрастных групп;
+- контролировать продажу алкоголя.
+
+**Цель:**  
+Построить модель, определяющую возраст по фотографии человека, используя сверточные нейронные сети и предобученные архитектуры (ResNet50).
+
+---
+
+
+## 3. Папка [`прогноз_времени_заказов`](https://github.com/AtaevEN/Praktikum_projects/tree/main/%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7_%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2)  
 ### Прогнозирование количества заказов такси для компании «Чётенькое такси»
 
 **Описание проекта:**  
@@ -24,7 +38,7 @@
 
 ---
 
-## 3. Папка [`сборный _проект_2`](https://github.com/AtaevEN/Praktikum_projects/tree/main/%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_2)  
+## 4. Папка [`сборный _проект_2`](https://github.com/AtaevEN/Praktikum_projects/tree/main/%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_2)  
 ### Прогноз удовлетворенности и увольнения сотрудников (HR-аналитика)
 
 **Описание проекта:**  
@@ -37,7 +51,18 @@
 
 ---
 
-## 4. Папка [`финальный_проект`](https://github.com/AtaevEN/Praktikum_projects/tree/main/%D1%84%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82)  
+## 5. Папка [`статистический_анализ_gofast`](https://github.com/AtaevEN/Praktikum_projects/tree/main/%D1%81%D1%82%D0%B0%D1%82_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+### Статистический анализ поведения пользователей сервиса GoFast
+
+**Описание проекта:**  
+Сервис аренды самокатов GoFast предоставляет данные о поездках пользователей из разных городов. Необходимо провести исследовательский анализ и проверить бизнес-гипотезы.
+
+**Цель:**  
+Проанализировать данные о поездках, сегментах пользователей, активности в зависимости от времени суток и других факторов. Проверить статистические гипотезы для поддержки роста бизнеса.
+
+---
+
+## 6. Папка [`финальный_проект`](https://github.com/AtaevEN/Praktikum_projects/tree/main/%D1%84%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82)  
 ### Прогноз температуры сплава для металлургического комбината «Стальная птица»
 
 **Описание проекта:**  
@@ -48,26 +73,46 @@
 
 ---
 
-# Используемые технологии и библиотеки (общий стек)
+## 🧰 Используемые технологии и библиотеки (общий стек)
 
-- **Python**  
-- **Работа с данными:**  
-  `pandas`, `numpy`, `scipy.stats`  
-- **Визуализация:**  
-  `matplotlib`, `seaborn`  
-- **Предобработка и очистка данных:**  
-  `re` (регулярные выражения), `tqdm` (индикатор прогресса),  
-  `sklearn.impute.SimpleImputer`,  
-  `sklearn.preprocessing` (масштабирование, кодирование, в том числе OneHotEncoder, OrdinalEncoder, StandardScaler, MinMaxScaler, RobustScaler, LabelEncoder)  
-- **Машинное обучение и моделирование:**  
-  `scikit-learn` (линейные модели, деревья решений, классификация, регрессия, пайплайны, подбор гиперпараметров GridSearchCV, RandomizedSearchCV, метрики качества — f1_score, roc_auc_score, rmse и др.)  
-  `LightGBM` (`LGBMClassifier`, `LGBMRegressor`)  
-  `XGBoost` (`XGBRegressor`)  
-  `CatBoost` (`CatBoostRegressor`)  
-  Балансировка классов с помощью `imblearn.SMOTE`  
-- **Обработка естественного языка (NLP):**  
-  `nltk` (токенизация, лемматизация, стоп-слова, POS-тэггинг)  
-- **Работа с временными рядами:**  
-  `statsmodels.tsa.seasonal.seasonal_decompose`  
-- **Дополнительные инструменты:**  
-  `math`, `scipy`  
+### 🐍 Язык программирования:
+- Python
+
+### 📊 Работа с данными:
+- `pandas`, `numpy`, `math`, `scipy`, `statistics`, `collections`, `datetime`
+
+### 📈 Визуализация:
+- `matplotlib`, `seaborn`, `plotly`
+
+### ⚙️ Предобработка и очистка данных:
+- `re` — регулярные выражения  
+- `tqdm` — прогресс-бар  
+- `sklearn.impute.SimpleImputer` — заполнение пропущенных значений  
+- `sklearn.preprocessing`:  
+  - `StandardScaler`, `MinMaxScaler`, `RobustScaler` — масштабирование  
+  - `OneHotEncoder`, `OrdinalEncoder`, `LabelEncoder` — кодирование признаков  
+
+### 🤖 Машинное обучение:
+- `scikit-learn`:
+  - Модели: `LinearRegression`, `LogisticRegression`, `DecisionTree`, `RandomForest`, `KNeighbors`, `Ridge`, `Lasso`, `ElasticNet`
+  - Метрики: `f1_score`, `roc_auc_score`, `accuracy_score`, `rmse`, `mean_absolute_error`, `confusion_matrix` и др.
+  - Подбор гиперпараметров: `GridSearchCV`, `RandomizedSearchCV`
+  - Валидация: `cross_val_score`, `train_test_split`, `TimeSeriesSplit`
+  - Пайплайны и `ColumnTransformer`
+- `XGBoost` — `XGBRegressor`
+- `LightGBM` — `LGBMClassifier`, `LGBMRegressor`
+- `CatBoost` — `CatBoostRegressor`
+- Балансировка классов: `imblearn.SMOTE`
+
+### 🧠 Глубокое обучение и компьютерное зрение:
+- `TensorFlow`, `Keras`
+  - Слои: `Conv2D`, `MaxPooling2D`, `Dropout`, `Flatten`, `Dense`, `GlobalAveragePooling2D`
+  - Аугментация изображений: `ImageDataGenerator`
+  - Предобученные модели: `ResNet50`
+  - Оптимизатор: `Adam`
+
+### 🗣️ Обработка естественного языка (NLP):
+- `nltk` — токенизация, лемматизация, удаление стоп-слов, POS-тэггинг
+
+### 📉 Временные ряды:
+- `statsmodels.tsa.seasonal.seasonal_decompose`
